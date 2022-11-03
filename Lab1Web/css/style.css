@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald:wght@500&display=swap');
+*{
+   box-sizing: border-box;
+}
+html, body {
+   height: 100%;
+  
+}
+
+
+body {
+    background-color: #ffffff ;
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+ }
+ h1, .inf-text {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+h1 {
+   font-size: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   display: inline-block;
+   
+   
+}
+ .wrapper{
+  
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+
+ }
+ header{
+   
+   background-color: #266d35;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   box-sizing: border-box;
+   justify-content: space-between;
+   position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;   
+   
+}
+.headerleft{
+   display: flex;
+   align-items: center;
+}
+
+ .gerb img{
+    width: 70px;
+    margin: 10px;
+    height: 100px;
+    background-size: contain;
+ }
+ 
+ .gerbtext{
+   width: 100px;
+   
+   
+ }
+ .headermenu{
+   
+    margin: auto 20px auto 10px;
+    font-size: 22px;
+
+ }
+ .selected-item {
+   font-size: 36px;
+}
+a {
+   color: black;
+   text-decoration: none;
+}
+a:hover {
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+}
+a:active {
+   color: rgb(136, 136, 136);
+}
+
+
+ main{
+   flex: 1 1 auto;
+ }
+ /* Gallery */
+ .gallerygor{
+   margin: 0px 10px 10px 10px;
+ }
+ .Newsmain{
+   margin: 0px 10px 10px 10px;
+ } 
+ .container{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .item{
+  flex: calc(100%/3 - 50px);
+    margin: 20px;
+ }
+ .item-box{
+   width: 60%;
+    text-align: center;
+ }
+ .item-box img {
+   width: 80%;
+   
+ }
+ .News{
+   margin: 0px 10px;
+ }
+ .News > table > tbody > tr > td:first-child > img{
+   width: 500px;
+   overflow:hidden;
+   height: 300px;
+   margin: 5px;
+   float: left;
+   
+   position: relative;
+ }
+ .News > table > tbody > tr > td > p{
+   text-align: left;
+ }
+ 
+ /* History */
+ .history-main{
+  margin: 20px;
+ }
+ .container{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .history-text{
+  text-align:justify;
+  width: 100%;
+ }
+ .history-img{
+  justify-content: center;
+  display: flex;
+  
+ }
+
+/*Cultist*/
+.cult-main{
+  margin: 20px;
+}
+.cont-cult{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cultinfo{
+  display: flex;
+}
+.culture-img > img{
+  width: 600px;
+  height: 100%;
+}
+.cult-text{
+  margin-left: 10px;
+}
+
+
+
+
+/*Infrost*/
+ iframe{
+  width: 600px;
+    height: 450px;
+    margin-left: 10px;
+}
+.geography{
+  display: flex;
+}
+.geo-info{
+  margin: 0px 10px 0px 10px;
+}
+.admindel{
+  margin: 0px 10px;
+}
+.admindel > table{
+  margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 10px 20px 10px;
+    border: 2px solid black;
+}
+th,td {
+  border: 1px solid black;
+}
+th {
+  font-size: 20px;
+  text-align: center;
+  background: rgb(204, 204, 204);
+  padding: 5px;
+}
+td {
+  padding: 10px 20px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: rgb(229, 229, 229);
+}
+.admindel > table > tbody > tr > td:first-child, td:last-child{
+  font-size: 18px;
+  text-align: left;
+}
+
+
+
+
+
+ /*obrsv*/
+ .contact {
+  margin: 0px 10px;
+}
+.form-group label {
+  display: block;
+}
+.form-group input,
+.form-group textarea {
+    width: 500px;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    color: black;
+    padding: 10px 0px 10px;
+    outline: none;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+    background-color: rgb(229, 229, 229);
+}
+
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+.row > .form-group {
+  width: 50%;
+}
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.sub-btn {
+  background: rgb(218, 211, 211);;
+  padding: 15px 75px;
+  margin: 15px 0px;
+  border: none;
+  cursor: pointer;
+}
+.sub-btn:hover {
+  opacity: 0.7;
+}
+ 
+/*footer*/
+ footer{
+   padding: 20px;
+   margin-top: auto;
+   display: flex;
+   justify-content: space-between; 
+   background-color: #266d35;
+ }
+footer p, footer li, footer a {
+   color: #000000;
+   text-align: left;
+   font-size: 18px;
+}
